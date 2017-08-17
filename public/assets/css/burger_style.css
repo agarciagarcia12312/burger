@@ -1,0 +1,101 @@
+body {
+	background-image:  url("https://irp-cdn.multiscreensite.com/1acf102a/dms3rep/multi/desktop/burger-1600x1200.jpg");
+	background-size: 100%;
+	/*background-color: #48FB24;*/
+}
+#main {
+	width: 720px;
+	height: 550px;
+	background-image:  url("https://ak9.picdn.net/shutterstock/videos/2383676/thumb/1.jpg?i10c=img.resize(height:160)");
+	background-size: 100%;
+	margin-top: 5%;
+	margin-left: 27%;
+	border: 2px solid green;
+	border-radius: 10px;
+}
+
+button {
+	margin-top: 10px;
+	<
+}
+h1, h2,h3 {
+	text-align: center;
+}
+
+h1 {
+	font-size: 2.7em;
+}
+h2 {
+	font-size: 2.0em;
+}
+h3 {
+	font-size: 1.5em;
+}
+label {
+	font-weight: bold;
+	font-size: 1.5em;
+}
+li {
+	list-style-type: none;
+	text-align: center;
+	width: 250px;
+	height: 70px;
+	background-image:  url("http://trickvilla.com/wp-content/uploads/Wood-Background-Photo.jpg");
+	background-size: 100%;
+	border: 1px green solid;
+	margin-bottom: 5px;
+	border-radius: 5px;
+	font-size: 1.5em;
+	font-weight: bold;
+	color: white;
+}
+label {
+	font-size: 1.2em;
+}
+#bugerList {
+	float: left;
+	margin-left: 3%;
+	position: relative;
+	top: -50px;
+}
+
+#finishedBurgers {
+	float: right;
+	margin-right: 5%;
+	position: relative;
+	top: -50px;
+}
+#addBurger {
+	/*background-color: white;*/
+	background-image:  url("http://wallpapercave.com/wp/oePE9lU.jpg");
+	background-size: 100%;
+	width: 370px;
+	height: 210px;
+	position: fixed;
+	left: 38%;
+	top: 40%;	
+	border:2px black solid;
+	border-radius: 5px;
+}
+.form-group, #add {
+	margin-left: 20%;
+}
+
+#addBtn {
+	width: 120px;
+	background-color: white;
+	font-size: 1.3em;
+	font-weight: bold;
+	text-align: center;
+	border: 1px green solid;
+	border-radius: 5px;
+	position: fixed;
+	right: 27%;
+	top: 17%;
+}
+#addBtn:hover {
+	cursor: pointer;
+	color: blue;
+	border-color: grey;
+}
+

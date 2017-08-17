@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Lunches</title>
+		<link rel="stylesheet" href="/assets/css/burger_style.css" type="text/css" />
+	</head>
+	<body>
+	<div id="main">
+	
+		<h1>Welcome eat Eat-Da-Burger!!</h1>
+		
+		<hr>
+		<h3>Add a burger to the list, then devour it whole</h3>
+		<br>
+		
+		{{{ body }}}
+		
+		
+		<form class="create-update-form" action="/" method = "POST" id="addBurger" style="display: none;">
+			<h2><u>Add Burger to list</u></h2>
+			
+			<div class="form-group">
+		    	<label for="ca">Burger Name:</label><br>
+		    	<input type="text" id="ca" name="name">
+		  	</div> 
+
+		  	<button type="submit" id="add">Add Burger</button>
+		</form>
+		
+	</div>	
+		<span id="addBtn"> Add burger</span>	
+		
+	</body>
+
+
+	<script type="text/javascript">
+		
+		var div =  document.getElementById("addBurger");
+		var addbtn = document.getElementById("addBtn");
+
+		window.onload = function() {
+		    addbtn.onclick = function () {
+		       div.style.display = 'block';
+   			 }
+
+		}
+
+	</script>
+</html>

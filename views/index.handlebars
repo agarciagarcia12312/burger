@@ -1,5 +1,5 @@
 <ul id="bugerList">
-<h2>waiting to be devoured</h2>
+<h2><u>On the list...</u></h2>
 	{{#each burgers}}
 		{{#unless this.devoured}}
 			<li>
@@ -19,7 +19,7 @@
 
 
 <ul id="finishedBurgers">	
-<h2>Devoured burgers</h2>
+<h2><u>Devoured burgers</u></h2>
 	{{#each burgers}}
 		{{#if this.devoured}}
 			<li>
